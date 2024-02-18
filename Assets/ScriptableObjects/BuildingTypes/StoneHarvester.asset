@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NameString: Stone Harvester
   Prefab: {fileID: 4509369884035309007, guid: 3d20d5495057c4cd795b3297c89289fb, type: 3}
+  HasResourceGeneratorData: 1
   BuildingSprite: {fileID: 21300000, guid: 2263e91ebcd2a254dab5f4caccb4a7af, type: 3}
   RGeneratorData:
     TimerMax: 1
@@ -23,4 +24,6 @@ MonoBehaviour:
   MinConstructionRadius: 7
   ConstructionResourceCostArray:
   - ResourceType: {fileID: 11400000, guid: b6f8be3bfd1dc4002b52bea373138a63, type: 2}
-    Amount: 30
+    Amount: 100
+  HealthAmountMax: 100
+  ConstructionTimerMax: 3
